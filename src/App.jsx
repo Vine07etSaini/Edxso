@@ -39,9 +39,10 @@ function App() {
 
   return (
     <>
+      <h1 className='heading'>Matrix Game</h1>
       <div className="outer-container">
         <div className="col">
-          {[1,2,3].map((ele, index) => (
+          {[1, 2, 3].map((ele, index) => (
             <div
               key={index}
               className="element"
@@ -51,7 +52,7 @@ function App() {
           ))}
         </div>
         <div className="col">
-          {[4,5,6].map((ele, index) => (
+          {[4, 5, 6].map((ele, index) => (
             <div
               key={index}
               className="element"
@@ -61,7 +62,7 @@ function App() {
           ))}
         </div>
         <div className="col">
-          {[7,8,9].map((ele, index) => (
+          {[7, 8, 9].map((ele, index) => (
             <div
               key={index}
               className="element"
